@@ -4,6 +4,7 @@ import 'bulma/css/bulma.css';
 import Head from './containers/Head';
 import Bio from './components/Bio';
 import Navbar from './components/Navbar';
+import Skills from './containers/Skills';
 
 export default class App extends Component {
   constructor(props) {
@@ -19,6 +20,7 @@ export default class App extends Component {
         <Navbar />
         <Head />
         <Bio />
+        <Skills />
       </div>
     )
   }
