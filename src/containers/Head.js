@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Avatar from 'avataaars';
 import Welcome from '../components/Welcome';
 
-export default class Info extends Component {
+export default class Head extends Component {
     constructor(props) {
         super(props);
         this.state = {
