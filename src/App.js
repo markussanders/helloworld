@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
 import 'bulma/css/bulma.css';
-import Info from './containers/Info';
+import Head from './containers/Head';
+import Bio from './components/Bio';
 
 export default class App extends Component {
   constructor(props) {
@@ -14,7 +15,8 @@ export default class App extends Component {
   render(){
     return (
       <div>
-        <Info />
+        <Head />
+        <Bio />
       </div>
     )
   }
