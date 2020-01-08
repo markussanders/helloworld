@@ -21,7 +21,7 @@ const Bio = () => {
                 what i value most from my music education, is the love of and good habits of continuous learning,
                 something especially crucial when it comes to my newly found passion: web development. 
 
-                i first noticed the similarties between coding and music when i stumbled upon an 'Into. to Javascript'
+                i first noticed the similarties between coding and music when i stumbled upon an 'Intro. to Javascript'
                 course on CodeCademy in that each task was composed of subtasks.
 
                 when tackling a new piece, you break down the entire process into smaller and more manageable
@@ -30,9 +30,9 @@ const Bio = () => {
                 or perfecting the syntax of a <em>for loop</em>. 
             </p>
             <p className="is-small">
-                after spending some time studying on my own, i attended and completed Flatiron School's immersive Software Engineering
-                bootcamp in Chicago, where i learned what it was like to work under strict deadlines and collaborate with others
-                on difficult projects.
+                after spending some time studying on my own, i attended and completed Flatiron School's Immersive Software Engineering
+                bootcamp in Chicago, where i learned what it was like to learn new technologies often, work under strict deadlines and 
+                collaborate with others on difficult projects.
             </p>
         </div>
     )
