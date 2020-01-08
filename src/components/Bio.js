@@ -4,7 +4,7 @@ import React, { Component } from 'react';
 const Bio = () => {
 
     return (
-        <div className="content">
+        <div className="content has-text-centered">
             <h4 className="is-large" id="about-me">about me</h4>
             <p className="is-small">
                 when i was five years old i had my first ever piano lesson.
