@@ -5,7 +5,7 @@ const Bio = () => {
 
     return (
         <div className="content">
-            <h4 className="is-large">about me</h4>
+            <h4 className="is-large" id="about-me">about me</h4>
             <p className="is-small">
                 when i was five years old i had my first ever piano lesson.
                 i hated it. it was really hard remembering scales, hand positions
