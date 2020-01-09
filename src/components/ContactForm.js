@@ -32,7 +32,7 @@ export default class ContactForm extends Component {
         return (
             <section className="is-white">
                 <div className="container">     
-                    <form id="form" accept-charset="UTF-8" action="https://usebasin.com/f/363b98eca5af" method="POST">
+                    <form id="form" accept-charset="UTF-8" >
                         <div className="columns is-centered">
                             <div className="column is-half">
                                 <div className="field">
