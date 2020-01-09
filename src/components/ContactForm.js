@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import SubmissionStatus from './SubmissionStatus';
 
 export default class ContactForm extends Component {
     constructor(props) {
@@ -8,6 +9,9 @@ export default class ContactForm extends Component {
             email: '',
             message: '',
             gotcha: false,
+            clickedSubmit: false,
+            isSubmitted: false,
+            submissionSuccess: null,
         };
     }
 
@@ -29,8 +33,8 @@ export default class ContactForm extends Component {
     }
 
     handleFormSubmit = event => {
-
         event.preventDefault();
+        
         if (this.state.gotcha) return undefined;
 
         const template_params = {
@@ -43,32 +47,38 @@ export default class ContactForm extends Component {
 
         const service_id = "default_service";
         const template_id = "template_3ySvp44L";
+
         window.emailjs
           .send(service_id, template_id, template_params)
           .then(res => {
+            this.setState({ 
+                isSubmitted: true, 
+                submissionSuccess: true,
+            });
             console.log("Email successfully sent!");
           })
           .catch(err => {
+            this.handleFormSubmitError();
             console.error(
                 "Failed to send that message. Here some thoughts on the error that occured:",
                 err
             )
-            this.handleFormSubmitError();
           }
           );
     }
 
-    handleFormSubmitError() {
+    handleFormSubmitError = () => {
         localStorage.setItem('form_content', JSON.stringify(this.state));
-        this.launchDefaultMailer();
+        this.setState({ isSubmitted: true, submissionSuccess: false });
     }
 
-    launchDefaultMailer() {
+    launchDefaultMailer = () => {
         const formInfo = JSON.parse(localStorage.getItem("form_content"));
         const toEmail = "markus.sanderst@gmail.com";
         const subject = `Let's%20connect!%20––${formInfo.name}`;
         const body = this.formatSpacing(formInfo.message);
         window.location.href = this.composeMailer(toEmail, subject, body);
+        localStorage.removeItem('form_content');
     }
 
     composeMailer = (toEmail, subject, body) => {
@@ -122,13 +132,38 @@ export default class ContactForm extends Component {
                             <div className="column is-one-third">
                                 <div className="field">
                                     <div className="control">
-                                        <button className="button is-primary is-outlined is-medium is-fullwidth is-rounded">Submit</button>
+                                        {this.state.isSubmitted ?
+                                            <button className="button is-primary is-outlined is-medium is-fullwidth is-rounded" disabled>Submitted</button>
+                                            :
+                                            <button className="button is-primary is-outlined is-medium is-fullwidth is-rounded" 
+                                                // onClick={() => this.setState({clickedSubmit: true})}
+                                            >
+                                                Submit
+                                            </button>
+                                        }
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </form>
                 </div>
+                {
+                    this.state.isSubmitted ? 
+
+                    <SubmissionStatus 
+                        isSubmitted = {
+                            this.state.isSubmitted
+                        }
+                        status = {
+                            this.state.submissionSuccess
+                        }
+                        launchDefaultMailer = {
+                            this.launchDefaultMailer
+                        }
+                        clearForm = {
+                            this.clearForm
+                        }
+                    /> : null}
             </section>
         )
     }
