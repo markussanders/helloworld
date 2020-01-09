@@ -90,7 +90,6 @@ export default class ContactForm extends Component {
     }
 
     render() {
-        console.log('this.state = ', this.state);
         return (
             <section className="is-white">
                 <div className="container">     
