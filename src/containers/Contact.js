@@ -22,9 +22,9 @@ const Contact = props => {
                                 mouthType = 'Smile'
                                 skinColor = 'Black' 
                             />
-                            <h1 className="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile">
-                                thanks for taking the time to reach out!
-                            </h1>
+                            <h2 className="title is-spaced is-size-1-desktop is-size-2-tablet is-size-3-mobile">
+                                like what you see || want to know more ?
+                            </h2>
                         </div>
                     </div>
                 </div>
