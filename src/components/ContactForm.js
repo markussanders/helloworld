@@ -28,11 +28,62 @@ export default class ContactForm extends Component {
         }
     }
 
+    handleFormSubmit = event => {
+
+        event.preventDefault();
+        if (this.state.gotcha) return undefined;
+
+        const template_params = {
+          from_email: this.state.email,
+          reply_to: this.state.email,
+          from_name: this.state.name,
+          to_name: "Markus",
+          message_html: this.state.message
+        };
+
+        const service_id = "default_service";
+        const template_id = "template_3ySvp44L";
+        window.emailjs
+          .send(service_id, template_id, template_params)
+          .then(res => {
+            console.log("Email successfully sent!");
+          })
+          .catch(err => {
+            console.error(
+                "Failed to send that message. Here some thoughts on the error that occured:",
+                err
+            )
+            this.handleFormSubmitError();
+          }
+          );
+    }
+
+    handleFormSubmitError() {
+        localStorage.setItem('form_content', JSON.stringify(this.state));
+        this.launchDefaultMailer();
+    }
+
+    launchDefaultMailer() {
+        const formInfo = JSON.parse(localStorage.getItem("form_content"));
+        const toEmail = "markus.sanderst@gmail.com";
+        const subject = `Let's%20connect!%20––${formInfo.name}`;
+        const body = this.formatSpacing(formInfo.message);
+        window.location.href = this.composeMailer(toEmail, subject, body);
+    }
+
+    composeMailer = (toEmail, subject, body) => {
+        return `mailto:${toEmail}?subject=${subject}&body=${body}`;
+    }
+
+    formatSpacing = str => {
+        return str.split(' ').join('%20');
+    }
+
     render() {
         return (
             <section className="is-white">
                 <div className="container">     
-                    <form id="form" accept-charset="UTF-8" >
+                    <form id="form" accept-charset="UTF-8" onSubmit={this.handleFormSubmit}>
                         <div className="columns is-centered">
                             <div className="column is-half">
                                 <div className="field">
