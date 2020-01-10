@@ -4,7 +4,7 @@ import ContactForm from '../components/ContactForm';
 
 const Contact = props => {
     return (
-        <div className="is-form-page">
+        <div className="is-form-page" id="contact">
             <section className="is-white has-text-centered">
                 <div className="container">
                     <div className="columns is-centered">
