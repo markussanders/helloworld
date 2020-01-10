@@ -13,7 +13,8 @@ export default class App extends Component {
     super(props);
     this.state = {
       prevScrollPos: window.pageYOffset,
-      visible: true,
+      visible: null,
+      navClass: ""
     }
   }
 
@@ -23,11 +24,14 @@ export default class App extends Component {
     const currentScrollPos = window.pageYOffset;
     const visible = prevScrollPos > currentScrollPos;
 
+    let navClass = visible ? "navbar-1--hidden" : "navbar-1";
+      
     this.setState({
       prevScrollPos: currentScrollPos,
-      visible
-    });
+      navClass
+    })
   };
+
 
   componentDidMount () {
     window.addEventListener('scroll', this.handleScroll);
@@ -40,7 +44,7 @@ export default class App extends Component {
   render(){
     return (
       <div >
-        <Navbar visible={this.state.visible}/>
+        <Navbar className={this.state.navClass}/>
         <Head />
         <Bio />
         <Skills />
