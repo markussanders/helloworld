@@ -11,7 +11,7 @@ export default class Skills extends Component {
     render() {
         return (
             <section className="has-text-centered"> 
-                <h2 className="title">my skills</h2>
+                <h2 className="title" id="skills">my skills</h2>
                 <div className="columns">
                     <div className="column is-light">
                         <div className="icon is-large">
