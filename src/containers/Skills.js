@@ -1,69 +1,64 @@
-import React, { Component } from 'react';
+import React from 'react';
+import dataIcon from '../images/data-icon.svg';
+import frontEndIcon from '../images/front-end-icon.svg';
+import insuranceIcon from '../images/insurance-icon.svg';
+import pianoIcon from '../images/piano-icon.svg';
 
-export default class Skills extends Component {
-    constructor(props) {
-        super(props);
-        this.state = {
+const Skills = props => {
 
-        };
-    }
-
-    render() {
-        return (
-            <section className="has-text-centered"> 
-                <h2 className="title" id="skills">my skills</h2>
-                <div className="columns">
-                    <div className="column is-light">
-                        <div className="icon is-large">
-                            <i className="fab fa-node-js"></i>
-                        </div>
-                        <h2 className="has-text-info">
-                            front end web development
-                        </h2>
-                        <p className="has-text-dark">
-                            JavaScript| React | Redux | HTML5 | CSS 
-                        </p>
-                    </div>
-                    <div className="column is-dark">
-                        <div className="icon is-large">
-                            <i className="fas fa-database"></i>
-                        </div>
-                        <h2 className="has-text-info">
-                            back end web development
-                        </h2>
-                        <p className="has-text-dark">
-                            Node | Ruby | Rails | REST API | SQL | PostgreSQL 
-                        </p>
-                    </div>
+    return (
+        <section className="has-text-centered"> 
+            <h2 className="title" id="skills">my skills</h2>
+            <div className="columns is-multiline">
+                <div className="column is-half skill-column">
+                    <figure className="image">
+                        <img className="skill-icon" src={frontEndIcon} alt="front-end-icon" />
+                    </figure>
+                    <h2 className="has-text-info">
+                        front end web development
+                    </h2>
+                    <p className="skill-content has-text-dark">
+                        JavaScript| React | Redux | HTML5 | CSS 
+                    </p>
                 </div>
-                   <div className="colum is-one-third is-dark">
-                       <div className="columns">
-                            <div className="column is-half is-light">
-                                <div className="icon is-large">
-                                    <i className="fas fa-house-damage"></i>
-                                </div>
-                                <h2 className="has-text-info">
-                                    insurance
-                                </h2>
-                                <p className="has-text-dark">
-                                licensed insurance producer, business and commercial |
-                                series 6 and 63 licenses
-                                </p>
-                            </div>
-                            <div className="column is-half is-light">
-                                <div className="icon is-large">
-                                    <i className="fas fa-music"></i>
-                                </div>
-                                <h2 className="has-text-info">
-                                    music performance
-                                </h2>
-                                <p className="has-text-dark">
-                                    piano | oboe | flute | saxophone | trumpet | french horn | violin | viola | cello 
-                                </p>
-                            </div>
-                       </div>
-                   </div>
-            </section>
-        )
-    }
+                <div className="column is-half skill-column">
+                    <figure className="image">
+                        <img className="skill-icon" src={dataIcon} alt="data-icon" />
+                    </figure>
+                    <h2 className="has-text-info">
+                        back end web development
+                    </h2>
+                    <p className="skill-content has-text-dark">
+                        Node | Ruby | Rails | REST API | SQL | PostgreSQL 
+                    </p>
+                </div>
+                <div className="column is-half skill-column">
+                    <figure className="image">
+                        <img className="skill-icon" src={insuranceIcon} alt="insurance-icon" />
+                    </figure>
+                    <h2 className="has-text-info">
+                        insurance
+                    </h2>
+                    <p className="skill-content has-text-dark">
+                        licensed insurance producer, business & commercial |
+                        series 6 and 63 licenses
+                    </p>
+                </div>
+                <div className="column is-half skill-column">
+                    <figure className="image">
+                        <img className="skill-icon" src={pianoIcon}  alt="piano-icon"/>
+                    </figure>
+                    <h2 className="has-text-info">
+                        music performance
+                    </h2>
+                    <p className="skill-content has-text-dark">
+                        piano | oboe | flute | saxophone | trumpet | french horn | violin | viola | cello 
+                    </p>
+                </div>
+            </div>
+
+        </section>
+    )
 }
+
+export default Skills;
