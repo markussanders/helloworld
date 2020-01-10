@@ -137,7 +137,7 @@ img.blog-image {
     color: rgb(178, 190, 252);
 }
 
-.has-text-first:hover {
+.button.has-text-first:hover {
     background-color: rgb(178, 190, 252);
     color: white;
 }
@@ -204,4 +204,10 @@ img.blog-image {
     margin-top: 1%;
     margin-bottom: 2%;
     padding: 1%;
+}
+
+.input:active {
+    border-color: rgb(232, 236, 255);
+    outline: rgb(178, 190, 252);
+    box-shadow: inset 1em rgb(232, 236, 255);
 }

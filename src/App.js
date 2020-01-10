@@ -32,7 +32,6 @@ export default class App extends Component {
     })
   };
 
-
   componentDidMount () {
     window.addEventListener('scroll', this.handleScroll);
   }
