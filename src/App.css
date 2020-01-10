@@ -125,11 +125,21 @@ img.blog-image {
 }
 
 .is-first {
-    color: rgb(178, 190, 252) !important;
+    color: rgb(178, 190, 252);
+}
+
+.is-first:hover {
+    background-color: rgb(178, 190, 252);
+    color: white;
 }
 
 .has-text-first {
-    color: rgb(178, 190, 252) !important;
+    color: rgb(178, 190, 252);
+}
+
+.button.has-text-first:hover {
+    background-color: rgb(178, 190, 252);
+    color: white;
 }
 
 .is-second {
@@ -166,6 +176,7 @@ img.blog-image {
 
 .is-sixth {
     color: rgb(128, 128, 128) !important;
+    background-color: rgb(203, 203, 203);
 }
 
 .has-text-sixth {
@@ -194,4 +205,10 @@ img.blog-image {
     margin-top: 1%;
     margin-bottom: 2%;
     padding: 1%;
+}
+
+.input:active {
+    border-color: rgb(232, 236, 255);
+    outline: rgb(178, 190, 252);
+    box-shadow: inset 1em rgb(232, 236, 255);
 }

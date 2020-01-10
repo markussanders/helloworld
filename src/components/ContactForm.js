@@ -133,11 +133,9 @@ export default class ContactForm extends Component {
                                 <div className="field">
                                     <div className="control">
                                         {this.state.isSubmitted ?
-                                            <button className="button is-primary is-outlined is-medium is-fullwidth is-rounded" disabled>Submitted</button>
+                                            <button className="button is-first is-outlined is-medium is-fullwidth is-rounded" disabled>Submitted</button>
                                             :
-                                            <button className="button is-primary is-outlined is-medium is-fullwidth is-rounded" 
-                                                // onClick={() => this.setState({clickedSubmit: true})}
-                                            >
+                                            <button className="button is-first is-outlined is-medium is-fullwidth is-rounded">
                                                 Submit
                                             </button>
                                         }
