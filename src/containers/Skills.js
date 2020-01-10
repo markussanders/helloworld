@@ -8,16 +8,16 @@ const Skills = props => {
 
     return (
         <section className="has-text-centered "> 
-            <h2 className="title" id="skills">my skills</h2>
+            <h2 className="title has-text-fifth" id="skills">my skills</h2>
             <div className="tile is-parent">
                 <div className="tile is-child is-6">
                     <figure className="image">
                         <img className="skill-icon" src={frontEndIcon} alt="front-end-icon" />
                     </figure>
-                    <h2 className="has-text-info">
+                    <h2 className="subtitle has-text-fifth">
                         front end web development
                     </h2>
-                    <p className="skill-content has-text-dark">
+                    <p className="skill-content has-text-fourth">
                         JavaScript| React | Redux | HTML5 | CSS 
                     </p>
                 </div>
@@ -25,10 +25,10 @@ const Skills = props => {
                     <figure className="image">
                         <img className="skill-icon" src={dataIcon} alt="data-icon" />
                     </figure>
-                    <h2 className="has-text-info">
+                    <h2 className="subtitle has-text-fifth">
                         back end web development
                     </h2>
-                    <p className="skill-content has-text-dark">
+                    <p className="skill-content has-text-fourth">
                         Node | Ruby | Rails | REST API | SQL | PostgreSQL 
                     </p>
                 </div>
@@ -38,10 +38,10 @@ const Skills = props => {
                     <figure className="image">
                         <img className="skill-icon" src={insuranceIcon} alt="insurance-icon" />
                     </figure>
-                    <h2 className="has-text-info">
+                    <h2 className="has-text-fifth">
                         insurance
                     </h2>
-                    <p className="skill-content has-text-dark">
+                    <p className="skill-content has-text-fourth">
                         licensed insurance producer, business & commercial |
                         series 6 and 63 licenses
                     </p>
@@ -50,10 +50,10 @@ const Skills = props => {
                     <figure className="image">
                         <img className="skill-icon" src={pianoIcon}  alt="piano-icon"/>
                     </figure>
-                    <h2 className="has-text-info">
+                    <h2 className="has-text-fifth">
                         music performance
                     </h2>
-                    <p className="skill-content has-text-dark">
+                    <p className="skill-content has-text-fourth">
                         piano | oboe | flute | saxophone | trumpet | french horn | violin | viola | cello 
                     </p>
                 </div>
