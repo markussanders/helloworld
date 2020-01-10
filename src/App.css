@@ -174,3 +174,9 @@ img.blog-image {
 .is-white {
     background-color: white;
 }
+
+.has-content-centered {
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    justify-content: space-around;
+}

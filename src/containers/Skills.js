@@ -7,10 +7,10 @@ import pianoIcon from '../images/piano-icon.svg';
 const Skills = props => {
 
     return (
-        <section className="has-text-centered"> 
+        <section className="has-text-centered "> 
             <h2 className="title" id="skills">my skills</h2>
-            <div className="columns is-multiline">
-                <div className="column is-half skill-column">
+            <div className="tile is-parent">
+                <div className="tile is-child is-6">
                     <figure className="image">
                         <img className="skill-icon" src={frontEndIcon} alt="front-end-icon" />
                     </figure>
@@ -21,7 +21,7 @@ const Skills = props => {
                         JavaScript| React | Redux | HTML5 | CSS 
                     </p>
                 </div>
-                <div className="column is-half skill-column">
+                <div className="tile is-child is-6 ">
                     <figure className="image">
                         <img className="skill-icon" src={dataIcon} alt="data-icon" />
                     </figure>
@@ -32,7 +32,9 @@ const Skills = props => {
                         Node | Ruby | Rails | REST API | SQL | PostgreSQL 
                     </p>
                 </div>
-                <div className="column is-half skill-column">
+            </div>
+            <div className="tile is-parent has-content-centered">
+                <div className="tile is-child is-4 ">
                     <figure className="image">
                         <img className="skill-icon" src={insuranceIcon} alt="insurance-icon" />
                     </figure>
@@ -44,7 +46,7 @@ const Skills = props => {
                         series 6 and 63 licenses
                     </p>
                 </div>
-                <div className="column is-half skill-column">
+                <div className="tile is-child is-4 ">
                     <figure className="image">
                         <img className="skill-icon" src={pianoIcon}  alt="piano-icon"/>
                     </figure>
@@ -56,7 +58,6 @@ const Skills = props => {
                     </p>
                 </div>
             </div>
-
         </section>
     )
 }
