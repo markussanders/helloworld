@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './App.css';
 import 'bulma/css/bulma.css';
+import './App.css';
 import Head from './containers/Head';
 import Bio from './components/Bio';
 import Navbar from './components/Navbar';
