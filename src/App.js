@@ -12,14 +12,35 @@ export default class App extends Component {
   constructor(props) {
     super(props);
     this.state = {
-
+      prevScrollPos: window.pageYOffset,
+      visible: true,
     }
+  }
+
+  handleScroll = () => {
+    const { prevScrollPos } = this.state;
+
+    const currentScrollPos = window.pageYOffset;
+    const visible = prevScrollPos > currentScrollPos;
+
+    this.setState({
+      prevScrollPos: currentScrollPos,
+      visible
+    });
+  };
+
+  componentDidMount () {
+    window.addEventListener('scroll', this.handleScroll);
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.handleScroll);
   }
 
   render(){
     return (
-      <div>
-        <Navbar />
+      <div >
+        <Navbar visible={this.state.visible}/>
         <Head />
         <Bio />
         <Skills />
