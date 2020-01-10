@@ -11,7 +11,7 @@ export default class Head extends Component {
 
     render() {
         return (
-            <section className="hero is-fourth is-medium">
+            <section className="hero is-sixth is-medium">
                 <div className="hero-body">
                     <div className="container has-text-centered">
                         <Avatar
