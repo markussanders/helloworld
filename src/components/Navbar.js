@@ -3,7 +3,7 @@ import React from 'react';
 const Navbar = props => {
 
     return (
-        <nav className={!props.visible ? "navbar" : "navbar--hidden"}>
+        <nav className={!props.visible ? "navbar-1" : "navbar-1--hidden"}>
             <div className="navbar-end">
                 <div className="navbar-item">
                     <div className="buttons">

@@ -2,21 +2,28 @@ html {
     scroll-behavior: smooth;
 }
 
-.navbar.is-transparent {
+/* .navbar.is-transparent {
     background-color: transparent;
     background-image: none;
-}
-.navbar {
+} */
+.navbar-1 {
     width: 100%;
     padding: 10px;
     position: fixed;
     top: 0;
     left: 0;
-    transition: top 0.6s;
+    z-index: 1;
+    transition: top 1s;
 }
 
-.navbar--hidden {
+.navbar-1--hidden {
     top: -50px;
+    width: 100%;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    z-index: 1;
+    transition: top 2.5s;
 }
 
 .image .skill-icon {
