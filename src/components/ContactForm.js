@@ -32,10 +32,22 @@ export default class ContactForm extends Component {
         }
     }
 
+    validInput = () => {
+        return (
+            this.state.name.length > 0 &&
+            this.state.email.length > 0 &&
+            this.state.message.length > 0
+        )
+    }
+
     handleFormSubmit = event => {
         event.preventDefault();
         
         if (this.state.gotcha) return undefined;
+        if (!this.validInput()) {
+            alert('Fields cannot be empty. Please enter valid text.');
+            return undefined;
+        }
 
         const template_params = {
           from_email: this.state.email,
