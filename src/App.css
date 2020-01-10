@@ -125,11 +125,21 @@ img.blog-image {
 }
 
 .is-first {
-    color: rgb(178, 190, 252) !important;
+    color: rgb(178, 190, 252);
+}
+
+.is-first:hover {
+    background-color: rgb(178, 190, 252);
+    color: white;
 }
 
 .has-text-first {
-    color: rgb(178, 190, 252) !important;
+    color: rgb(178, 190, 252);
+}
+
+.has-text-first:hover {
+    background-color: rgb(178, 190, 252);
+    color: white;
 }
 
 .is-second {
