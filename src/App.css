@@ -2,21 +2,36 @@ html {
     scroll-behavior: smooth;
 }
 
-.navbar.is-transparent {
-    background-color: transparent;
-    background-image: none;
-}
-.navbar {
-    width: 100%;
-    padding: 10px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    transition: top 0.6s;
+body {
+    background-color: rgb(113, 116, 128);
 }
 
-.navbar--hidden {
-    top: -50px;
+img.logo {
+    height: 1em;
+    margin-left: 1em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.navbar-1 {
+    display: inline-flex;
+    width: 100%;
+    padding: 8px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    transition: top 1s;
+}
+
+.navbar-1--hidden {
+    display: inline-flex;
+    top: -60px;
+    width: 100%;
+    position: sticky;
+    left: 0;
+    z-index: 1;
+    transition: top 2.5s;
 }
 
 .image .skill-icon {
@@ -133,7 +148,7 @@ img.blog-image {
 }
 
 .is-fourth {
-    color: rgb(113, 116, 128) !important;
+    background-color: rgb(113, 116, 128) !important;
 }
 
 .has-text-fourth {
@@ -154,4 +169,8 @@ img.blog-image {
 
 .has-text-sixth {
     color: rgb(128, 128, 128) !important;
+}
+
+.is-white {
+    background-color: white;
 }

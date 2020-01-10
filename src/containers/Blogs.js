@@ -5,7 +5,6 @@ import developer from '../photos/developer.gif';
 
 const Blogs = props => {
 
-
     return (
         <section className="has-text-centered">
             <h2 className="title" id="blogs">my blogs</h2>
