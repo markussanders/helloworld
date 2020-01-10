@@ -24,3 +24,23 @@ div.skill-column {
     margin-right: auto;
     margin-top: 5%;
 }
+
+.blog-image-container {
+    object-fit: cover;
+}
+
+img.blog-image {
+    max-height: 50%;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blog-title {
+    visibility: hidden;
+}
+
+.blog-column:hover h2.blog-title {
+    visibility: visible;
+}
+
