@@ -185,3 +185,13 @@ img.blog-image {
 .has-text-complementary {
     color: rgb(252, 240, 178) !important;
 }
+
+.has-space-around {
+    margin: 5%;
+}
+
+.divider {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    padding: 1%;
+}

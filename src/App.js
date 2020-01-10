@@ -46,13 +46,9 @@ export default class App extends Component {
       <div className="is-white">
         <Navbar className={this.state.navClass}/>
         <Head />
-        <br />
         <Bio />
-        <br />
         <Skills />
-        <br />
         <Blogs />
-        <br />
         <Contact />
       </div>
     )

@@ -7,8 +7,9 @@ import pianoIcon from '../images/piano-icon.svg';
 const Skills = props => {
 
     return (
-        <section className="has-text-centered "> 
-            <h2 className="title has-text-fifth" id="skills">my skills</h2>
+        <section className="has-text-centered has-space-below"> 
+            <div className="divider" id="skills"></div>
+            <h2 className="title has-text-fifth">my skills</h2>
             <div className="tile is-parent">
                 <div className="tile is-child is-6">
                     <figure className="image">
