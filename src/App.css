@@ -39,6 +39,7 @@ img.logo {
     width: 20%;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 8%;
 }
 
 div.skill-column {
@@ -173,4 +174,24 @@ img.blog-image {
 
 .is-white {
     background-color: white;
+}
+
+.has-content-centered {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+
+.has-text-complementary {
+    color: rgb(252, 240, 178) !important;
+}
+
+.has-space-around {
+    margin: 5%;
+}
+
+.divider {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    padding: 1%;
 }

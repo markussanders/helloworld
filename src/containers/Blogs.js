@@ -6,7 +6,8 @@ import developer from '../photos/developer.gif';
 const Blogs = props => {
 
     return (
-        <section className="has-text-centered">
+        <section className="has-text-centered has-space-below">
+            <div className="divider" id="blogs"></div>
             <h2 className="title" id="blogs">my blogs</h2>
             <div className="tile is-parent blog-columns">
                 <div className="tile is-child box blog-column">
