@@ -2,9 +2,21 @@ html {
     scroll-behavior: smooth;
 }
 
+body {
+    background-color: rgb(113, 116, 128);
+}
+
+img.logo {
+    height: 1em;
+    margin-left: 1em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
 .navbar-1 {
+    display: inline-flex;
     width: 100%;
-    padding: 10px;
+    padding: 8px;
     position: sticky;
     top: 0;
     left: 0;
@@ -13,6 +25,7 @@ html {
 }
 
 .navbar-1--hidden {
+    display: inline-flex;
     top: -60px;
     width: 100%;
     position: sticky;
@@ -135,7 +148,7 @@ img.blog-image {
 }
 
 .is-fourth {
-    color: rgb(113, 116, 128) !important;
+    background-color: rgb(113, 116, 128) !important;
 }
 
 .has-text-fourth {
@@ -156,4 +169,8 @@ img.blog-image {
 
 .has-text-sixth {
     color: rgb(128, 128, 128) !important;
+}
+
+.is-white {
+    background-color: white;
 }

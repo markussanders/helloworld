@@ -14,7 +14,7 @@ export default class App extends Component {
     this.state = {
       prevScrollPos: window.pageYOffset,
       visible: null,
-      navClass: ""
+      navClass: "navbar-1--hidden is-fourth"
     }
   }
 
@@ -43,12 +43,16 @@ export default class App extends Component {
 
   render(){
     return (
-      <div >
+      <div className="is-white">
         <Navbar className={this.state.navClass}/>
         <Head />
+        <br />
         <Bio />
+        <br />
         <Skills />
+        <br />
         <Blogs />
+        <br />
         <Contact />
       </div>
     )
