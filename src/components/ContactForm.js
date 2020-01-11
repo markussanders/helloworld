@@ -109,7 +109,7 @@ export default class ContactForm extends Component {
                         <div className="columns is-centered">
                             <div className="column is-half">
                                 <div className="field">
-                                    <label className="label">Name</label>
+                                    <label className="label">name</label>
                                     <div className="control is-expanded">
                                         <input className="input is-large" name="name" type="text" required="" onChange={this.handleInputChange}/>
                                     </div>
@@ -117,7 +117,7 @@ export default class ContactForm extends Component {
                             </div>
                             <div className="column is-half">
                                 <div className="field">
-                                    <label className="label">Email</label>
+                                    <label className="label">email</label>
                                     <div className="control is-expanded">
                                         <input className="input is-large" name="email" type="email" required="" onChange={this.handleInputChange}/>
                                     </div>
@@ -127,7 +127,7 @@ export default class ContactForm extends Component {
                         <div className="columns is-centered">
                             <div className="column">
                                 <div className="field">
-                                    <label className="label">Message</label>
+                                    <label className="label">message</label>
                                     <div className="control is-expanded">
                                         <textarea className="textarea is-large" name="message" rows="5" required="" onChange={this.handleInputChange}/>
                                     </div>
@@ -145,10 +145,10 @@ export default class ContactForm extends Component {
                                 <div className="field">
                                     <div className="control">
                                         {this.state.isSubmitted ?
-                                            <button className="button is-first is-outlined is-medium is-fullwidth is-rounded" disabled>Submitted</button>
+                                            <button className="button is-first is-outlined is-medium is-fullwidth is-rounded" disabled>submitted</button>
                                             :
                                             <button className="button is-first is-outlined is-medium is-fullwidth is-rounded">
-                                                Submit
+                                                submit
                                             </button>
                                         }
                                     </div>
