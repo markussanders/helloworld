@@ -5,7 +5,7 @@ const Navbar = props => {
 
     return (
         <nav className={props.className} role="navigation">
-            <img className="logo" src={logo} alt="logo"/>
+            <img className="navbar-brand logo" src={logo} alt="logo"/>
             <div className="navbar-end">
                 <div className="navbar-item">
                     <div className="buttons">
