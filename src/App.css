@@ -212,3 +212,29 @@ img.blog-image {
     outline: rgb(178, 190, 252);
     box-shadow: inset 1em rgb(232, 236, 255);
 }
+
+.image-crop {
+    width: 242px;
+    height: 244px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.profile-pic {
+    margin: 0 auto;
+    width: auto;
+}
+
+.avatar-container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.avatar-image {
+    margin: 0 auto;
+    width: auto;
+}
