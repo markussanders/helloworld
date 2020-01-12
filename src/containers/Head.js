@@ -21,7 +21,7 @@ export default class Head extends Component {
 
     renderImage = () => {
         if (!this.state.hover) {
-            return <img className="" src={avataaar} alt="avataaar of markus frowning/smiling" onMouseEnter={() => this.hoverTrue()} />
+            return <img className="avatar-image" src={avataaar} alt="avataaar of markus frowning/smiling" onMouseEnter={() => this.hoverTrue()} />
         } else {
             return <img className="profile-pic" src={frown} alt="markus frowning/smiling" /> 
         }
