@@ -105,13 +105,13 @@ export default class ContactForm extends Component {
         return (
             <section className="is-white">
                 <div className="container">     
-                    <form id="form" accept-charset="UTF-8" onSubmit={this.handleFormSubmit}>
+                    <form id="form" acceptCharset="UTF-8" onSubmit={this.handleFormSubmit}>
                         <div className="columns is-centered">
                             <div className="column is-half">
                                 <div className="field">
                                     <label className="label">name</label>
                                     <div className="control is-expanded">
-                                        <input className="input is-large" name="name" type="text" required="" onChange={this.handleInputChange}/>
+                                        <input className="input is-large" name="name" type="text" required onChange={this.handleInputChange}/>
                                     </div>
                                 </div>
                             </div>
@@ -119,7 +119,7 @@ export default class ContactForm extends Component {
                                 <div className="field">
                                     <label className="label">email</label>
                                     <div className="control is-expanded">
-                                        <input className="input is-large" name="email" type="email" required="" onChange={this.handleInputChange}/>
+                                        <input className="input is-large" name="email" type="email" required onChange={this.handleInputChange}/>
                                     </div>
                                 </div>
                             </div>
@@ -129,7 +129,7 @@ export default class ContactForm extends Component {
                                 <div className="field">
                                     <label className="label">message</label>
                                     <div className="control is-expanded">
-                                        <textarea className="textarea is-large" name="message" rows="5" required="" onChange={this.handleInputChange}/>
+                                        <textarea className="textarea is-large" name="message" rows="5" required onChange={this.handleInputChange}/>
                                     </div>
                                 </div>
                                 <div className="field is-hidden">

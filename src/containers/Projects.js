@@ -14,7 +14,7 @@ export default class Projects extends Component {
 
     renderProjects() {
         return this.state.projects.map(project => {
-            return <ProjectCard project={project} handleClick={this.handleClick} />
+            return <ProjectCard key={project.id} project={project} handleClick={this.handleClick} />
         })
     }
 

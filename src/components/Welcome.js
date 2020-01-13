@@ -34,7 +34,7 @@ export default class Welcome extends Component {
     render() {
         return (
             <div>
-                <h1 class="title">
+                <h1 className="title">
                     hello, world!
                 </h1>
                 {this.toggleWelcomeMessage()}
