@@ -14,7 +14,7 @@ const Bio = () => {
 
                 every week during my lesson, even though i had practiced for some times hours,
                 my instructor would always find something that i could improve on. it was never 
-                ending. 
+                ending and i wanted to give up.
                 <br/>
                 <strong>i hated music so much that i went on to study it in college.</strong>  
             </p>
