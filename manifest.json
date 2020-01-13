@@ -1,0 +1,9 @@
+{
+  "short_name": "Hello, World!",
+  "name": "Markus says: 'Hello, World!",
+  "icons": [],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
