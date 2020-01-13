@@ -108,6 +108,16 @@ img.blog-image {
     background-color: rgba(0, 0, 255, 0.3);
 }
 
+.blog-columns .project.blog-column:hover {
+    height: 30vh;
+    transition: .5s;
+    max-width: 40% !important;
+    flex-grow: 2;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgba(252, 240, 178, 0.913);
+}
+
 .blog-columns .blog-column:hover h2 {
     transform: none;
     transition: .3s;

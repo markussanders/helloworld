@@ -5,7 +5,7 @@ const ProjectCard = props => {
     
     return (
 
-        <div className="tile is-child box blog-column" onClick={() => props.handleClick(project)}>
+        <div className="tile is-child box blog-column project" onClick={() => props.handleClick(project)}>
             <div className="container blog-image-container">
                 <figure className="image" >
                     <img className="blog-image" src={project.image} alt={`Screenshot of homepage from ${project.title}`} />
