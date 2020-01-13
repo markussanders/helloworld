@@ -7,6 +7,7 @@ import Navbar from './components/Navbar';
 import Skills from './containers/Skills';
 import Contact from './containers/Contact';
 import Blogs from './containers/Blogs';
+import Projects from './containers/Projects';
 
 export default class App extends Component {
   constructor(props) {
@@ -48,6 +49,7 @@ export default class App extends Component {
         <Bio />
         <Skills />
         <Blogs />
+        <Projects />
         <Contact />
       </div>
     )
