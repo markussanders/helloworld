@@ -238,3 +238,10 @@ img.blog-image {
     margin: 0 auto;
     width: auto;
 }
+
+.project-desc-image {
+    max-width: 60%;
+    max-height: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
