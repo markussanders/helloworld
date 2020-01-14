@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.e882681a.chunk.css",
-    "main.js": "/static/js/main.518bdb91.chunk.js",
-    "main.js.map": "/static/js/main.518bdb91.chunk.js.map",
+    "main.css": "/static/css/main.81594465.chunk.css",
+    "main.js": "/static/js/main.5549ba20.chunk.js",
+    "main.js.map": "/static/js/main.5549ba20.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1e59195b.js",
     "runtime-main.js.map": "/static/js/runtime-main.1e59195b.js.map",
     "static/css/2.70d9d258.chunk.css": "/static/css/2.70d9d258.chunk.css",
-    "static/js/2.fbdf4ad9.chunk.js": "/static/js/2.fbdf4ad9.chunk.js",
-    "static/js/2.fbdf4ad9.chunk.js.map": "/static/js/2.fbdf4ad9.chunk.js.map",
+    "static/js/2.e08544e5.chunk.js": "/static/js/2.e08544e5.chunk.js",
+    "static/js/2.e08544e5.chunk.js.map": "/static/js/2.e08544e5.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.f20ebdf208b6db3aa390f474c678d832.js": "/precache-manifest.f20ebdf208b6db3aa390f474c678d832.js",
+    "precache-manifest.503a9dc6562c7995ba616f7f0a22df0b.js": "/precache-manifest.503a9dc6562c7995ba616f7f0a22df0b.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.70d9d258.chunk.css.map": "/static/css/2.70d9d258.chunk.css.map",
-    "static/css/main.e882681a.chunk.css.map": "/static/css/main.e882681a.chunk.css.map",
-    "static/js/2.fbdf4ad9.chunk.js.LICENSE": "/static/js/2.fbdf4ad9.chunk.js.LICENSE",
+    "static/css/main.81594465.chunk.css.map": "/static/css/main.81594465.chunk.css.map",
+    "static/js/2.e08544e5.chunk.js.LICENSE": "/static/js/2.e08544e5.chunk.js.LICENSE",
     "static/media/LETS-gif.gif": "/static/media/LETS-gif.0233d8c4.gif",
     "static/media/avatar-angry-laugh.svg": "/static/media/avatar-angry-laugh.e0f1a69e.svg",
     "static/media/avatar-smile.svg": "/static/media/avatar-smile.203d7441.svg",
@@ -25,6 +25,7 @@
     "static/media/insurance-icon.svg": "/static/media/insurance-icon.582bbfe3.svg",
     "static/media/markus-frown-laugh.jpg": "/static/media/markus-frown-laugh.569d9505.jpg",
     "static/media/markus-smile.jpg": "/static/media/markus-smile.a6551b48.jpg",
+    "static/media/medium.png": "/static/media/medium.9f1e14b2.png",
     "static/media/oprah-giveaway.gif": "/static/media/oprah-giveaway.8a64a906.gif",
     "static/media/piano-icon.svg": "/static/media/piano-icon.8aa24e76.svg",
     "static/media/skal-gif.gif": "/static/media/skal-gif.8e00e13b.gif",
@@ -33,8 +34,8 @@
   "entrypoints": [
     "static/js/runtime-main.1e59195b.js",
     "static/css/2.70d9d258.chunk.css",
-    "static/js/2.fbdf4ad9.chunk.js",
-    "static/css/main.e882681a.chunk.css",
-    "static/js/main.518bdb91.chunk.js"
+    "static/js/2.e08544e5.chunk.js",
+    "static/css/main.81594465.chunk.css",
+    "static/js/main.5549ba20.chunk.js"
   ]
 }
