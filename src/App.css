@@ -255,3 +255,38 @@ img.blog-image {
     margin-left: auto;
     margin-right: auto;
 }
+
+.social-icons {
+    display: inline-flex;
+    align-items: flex-end;
+}
+
+.social-icon {
+    width: 2em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.icons--hidden {
+    visibility: hidden;
+}
+
+.icons--visible {
+    opacity: 1;
+    animation-name: fadeInOpacity;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-duration: 2s;
+}
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

@@ -1,16 +1,23 @@
 import React, { Component } from 'react';
+import Social from './Social';
 
 export default class Welcome extends Component {
     constructor(props) {
         super(props);
         this.state = {
             phase: 1,
+            hidden: true,
         };
     }
 
     setPhase() {
         setInterval(() => {
-            return this.state.phase === 3 ? null : this.setState({ phase: this.state.phase + 1});
+            return this.state.phase === 3 ? this.setState({
+                phase: 4,
+                hidden: !this.state.hidden
+            }) : this.setState({
+                phase: this.state.phase + 1
+            });
         }, 2000);
     }
 
@@ -23,8 +30,18 @@ export default class Welcome extends Component {
             case 3:
                 return <h2 className="subtitle">i build things</h2> 
             default: 
-                return <h2 className="subtitle">my name is markus and i'm a full stack web developer</h2>
+                return this.renderStaticWelcome();
         }
+    }
+
+    renderStaticWelcome() {
+        return (
+          <h2 className="subtitle">
+            my name is markus sanders and i'm a full stack web developer based
+            in the amazing city of chicago, illinois!
+          </h2>
+        );
+
     }
 
     componentDidMount() {
@@ -38,6 +55,9 @@ export default class Welcome extends Component {
                     hello, world!
                 </h1>
                 {this.toggleWelcomeMessage()}
+                <div className={this.state.hidden ? "icons--hidden" : "icons--visible"}>
+                    <Social />
+                </div>
             </div>
         ) 
     }
