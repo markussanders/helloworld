@@ -49,7 +49,7 @@ export default class Projects extends Component {
                         <p className="project-desc-text">{project.description}</p>
                     </section>
                     <footer className="modal-card-foot">
-                        {project.website ? <button className="button is-first is-inverted">website</button> : null}
+                        {project.website ? <a href={project.website} target="_blank" rel="noopener noreferrer"><button className="button is-first is-inverted">website</button></a> : null}
                         <a href={project.githubLink} target="_blank" rel="noopener noreferrer"><button className="button is-first">github</button></a>
                         <button className="button" onClick={() => this.handleClose()} >go back</button>
                     </footer>
@@ -59,7 +59,7 @@ export default class Projects extends Component {
     }
 
     renderProjectsDiv = () => {
-        return (
+        return ( 
             <section className="has-text-centered">
                 <div className="divider" id="projects"></div>
                 <h2 className="title">my recent work</h2>
