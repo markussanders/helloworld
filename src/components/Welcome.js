@@ -18,17 +18,17 @@ export default class Welcome extends Component {
             }) : this.setState({
                 phase: this.state.phase + 1
             });
-        }, 2000);
+        }, 3000);
     }
 
     toggleWelcomeMessage() {
         switch (this.state.phase) {
             case 1:
-                return <h2 className="subtitle">my name is markus sanders</h2>;
+                return <h2 className="subtitle fade-in-text">welcome to my web portfolio!</h2>;
             case 2: 
-                return <h2 className="subtitle">i'm a full stack web developer</h2>;
+                return <h2 className="subtitle fade-in-text-1">i build things</h2>;
             case 3:
-                return <h2 className="subtitle">i build things</h2> 
+                return <h2 className="subtitle fade-in-text shake">i build <strong>cool</strong> things</h2> 
             default: 
                 return this.renderStaticWelcome();
         }
@@ -37,8 +37,8 @@ export default class Welcome extends Component {
     renderStaticWelcome() {
         return (
           <h2 className="subtitle">
-            my name is markus sanders and i'm a full stack web developer based
-            in the amazing city of chicago, illinois!
+            my name is <strong>markus sanders</strong> and i'm a <strong>full stack web developer</strong> based
+            in the amazing city of <strong>chicago</strong>, illinois!
           </h2>
         );
 
