@@ -47,21 +47,31 @@ export default class App extends Component {
       <div className="is-white">
         <Navbar className={this.state.navClass}/>
         <Head />
-        <FadeInSection>
-          <Bio />
-        </FadeInSection>
-        <FadeInSection>
-          <Skills />
-        </FadeInSection>
-        <FadeInSection>
-          <Blogs />
-        </FadeInSection>
-        <FadeInSection>
-          <Projects />
-        </FadeInSection>
-        <FadeInSection>
-          <Contact />
-        </FadeInSection>
+          <div id="about-me">
+            <FadeInSection>
+              <Bio />
+            </FadeInSection>
+          </div>
+          <div id="skills">
+            <FadeInSection>
+              <Skills />
+            </FadeInSection>
+          </div>
+          <div id="blogs">
+            <div className="divider"></div>
+              <Blogs />
+            <div className="divider"></div>
+          </div>
+          <div id="projects">
+            <div className="divider"></div>
+              <Projects />
+            <div className="divider"></div>
+          </div>
+          <div id="contact">
+            <FadeInSection>
+              <Contact />
+            </FadeInSection>
+          </div>
       </div>
     )
   }

@@ -10,7 +10,7 @@ const Blogs = props => {
     const learnedLink = "https://medium.com/@markus.sanderst/what-i-learned-in-coding-school-is-b0f742d62a05?source=friends_link&sk=7b1730922a70f295a62356308b77815c";
     return (
         <section className="has-text-centered">
-            <div className="divider" id="blogs"></div>
+            <div className="divider"></div>
             <h2 className="title">my blogs</h2>
             <div className="tile is-parent blog-columns">
                 <div className="tile is-child box blog-column">
