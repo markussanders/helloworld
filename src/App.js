@@ -8,6 +8,7 @@ import Skills from './containers/Skills';
 import Contact from './containers/Contact';
 import Blogs from './containers/Blogs';
 import Projects from './containers/Projects';
+import FadeInSection from './containers/FadeInSection';
 
 export default class App extends Component {
   constructor(props) {
@@ -46,11 +47,21 @@ export default class App extends Component {
       <div className="is-white">
         <Navbar className={this.state.navClass}/>
         <Head />
-        <Bio />
-        <Skills />
-        <Blogs />
-        <Projects />
-        <Contact />
+        <FadeInSection>
+          <Bio />
+        </FadeInSection>
+        <FadeInSection>
+          <Skills />
+        </FadeInSection>
+        <FadeInSection>
+          <Blogs />
+        </FadeInSection>
+        <FadeInSection>
+          <Projects />
+        </FadeInSection>
+        <FadeInSection>
+          <Contact />
+        </FadeInSection>
       </div>
     )
   }
