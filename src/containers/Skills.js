@@ -8,7 +8,7 @@ const Skills = props => {
 
     return (
         <section className="has-text-centered has-space-below"> 
-            <div className="divider" id="skills"></div>
+            <div className="divider"></div>
             <h2 className="title has-text-fifth">my skills</h2>
             <div className="tile is-parent">
                 <div className="tile is-child is-6">

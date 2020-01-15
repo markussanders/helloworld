@@ -5,7 +5,7 @@ const Bio = () => {
 
     return (
         <div className="content has-text-centered has-space-around" >
-            <div className="divider" id="about-me"></div>
+            <div className="divider"></div>
             <h4 className="is-large">about me</h4>
             <p className="is-small">
                 when i was five years old i had my first ever piano lesson.

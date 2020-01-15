@@ -8,7 +8,7 @@ const Contact = props => {
     
     return (
         <div className="is-form-page">
-            <div className="divider" id="contact"></div>
+            <div className="divider"></div>
             <section className="is-white has-text-centered">
                 <div className="container">
                     <div className="columns is-centered">

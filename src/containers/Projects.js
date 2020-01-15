@@ -61,7 +61,7 @@ export default class Projects extends Component {
     renderProjectsDiv = () => {
         return ( 
             <section className="has-text-centered">
-                <div className="divider" id="projects"></div>
+                <div className="divider"></div>
                 <h2 className="title">my recent work</h2>
                 <div className="tile is-parent blog-columns">
                     {this.renderProjects()}
