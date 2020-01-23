@@ -30,11 +30,11 @@ const Skills = props => {
                         back end web development
                     </h2>
                     <p className="skill-content has-text-fourth">
-                        Node | Ruby | Rails | REST API | SQL | PostgreSQL 
+                        Node | Ruby | Rails | RESTful API's | SQL | PostgreSQL | Firebase <br/> Mocha w/ Chai | Jasmine 
                     </p>
                 </div>
             </div>
-            <div className="tile is-parent has-content-centered">
+            {/* <div className="tile is-parent has-content-centered">
                 <div className="tile is-child is-4 ">
                     <figure className="image">
                         <img className="skill-icon" src={insuranceIcon} alt="insurance-icon" />
@@ -58,7 +58,7 @@ const Skills = props => {
                         piano | oboe | flute | saxophone | trumpet | french horn | violin | viola | cello 
                     </p>
                 </div>
-            </div>
+            </div> */}
         </section>
     )
 }

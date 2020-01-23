@@ -8,6 +8,7 @@ const Blogs = props => {
     const rebuildingLink = "https://medium.com/@markus.sanderst/rebuilding-javascripts-built-in-higher-order-functions-36e9963af7c6?source=friends_link&sk=4833fe78866897dea708ffa6525ca7c4";
     const optimizingLink = "https://medium.com/@markus.sanderst/optimizing-your-coding-process-b61366e6425c?source=friends_link&sk=ee384de986b7b623c2c4089d774e6574";
     const learnedLink = "https://medium.com/@markus.sanderst/what-i-learned-in-coding-school-is-b0f742d62a05?source=friends_link&sk=7b1730922a70f295a62356308b77815c";
+    
     return (
         <section className="has-text-centered">
             <div className="divider"></div>

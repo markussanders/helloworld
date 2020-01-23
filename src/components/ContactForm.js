@@ -103,7 +103,7 @@ export default class ContactForm extends Component {
 
     render() {
         return (
-            <section className="is-white">
+            <section className="is-white contact-me">
                 <div className="container">     
                     <form id="form" acceptCharset="UTF-8" onSubmit={this.handleFormSubmit}>
                         <div className="columns is-centered">
