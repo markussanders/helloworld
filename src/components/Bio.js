@@ -6,34 +6,21 @@ const Bio = () => {
     return (
         <div className="content has-text-centered has-space-around" >
             <div className="divider"></div>
-            <h4 className="is-large">about me</h4>
+            <h2 className="title has-text-fifth">about me</h2>
             <p className="is-small">
-                when i was five years old i had my first ever piano lesson.
-                i hated it. it was really hard remembering scales, hand positions
-                and learning to read music. <br/>
-
-                every week during my lesson, even though i had practiced for some times hours,
-                my instructor would always find something that i could improve on. it was never 
-                ending and i wanted to give up.
+                as a music major in college, i had to take four years of music theory
+                courses.
                 <br/>
-                <strong>i hated music so much that i went on to study it in college.</strong>  
-            </p>
-            <p className="is-small">
-                what i value most from my music education, is the love of and good habits of continuous learning,
-                something especially crucial when it comes to my newly found passion: web development. 
-
-                i first noticed the similarties between coding and music when i stumbled upon an 'Intro. to Javascript'
-                course on CodeCademy in that each task was composed of subtasks.
-
-                when tackling a new piece, you break down the entire process into smaller and more manageable
-                goals, isolating particular phrases in a piece and repeating them until they come naturally. 
-                the same is true in software development projects, whether it be from learning a new language,
-                or perfecting the syntax of a <em>for loop</em>. 
-            </p>
-            <p className="is-small">
-                after spending some time studying on my own, i attended and completed Flatiron School's Immersive Software Engineering
-                bootcamp in Chicago, where i learned what it was like to learn new technologies often, work under strict deadlines and 
-                collaborate with others on difficult projects.
+                while many might say that was one of their least favorable
+                parts <em>(second only to medieval music history)</em>, for me it was the opposite.
+                <br/>
+                i say this because breaking a piece down, analyzing its individual parts and seeing how 
+                it all fits together is almost compulsive for me. with that said, it comes as no surprise as 
+                to when i was introduced to web development why it stuck so well.  
+                <br/>
+                after spending time on my own studying and building projects with my friends and colleagues, 
+                i attended Flatiron School's Software Engineering program where i learned new technologies
+                and worked with others developers on full stack applications.
             </p>
         </div>
     )
