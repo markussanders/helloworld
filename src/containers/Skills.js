@@ -19,7 +19,7 @@ const Skills = props => {
                         front end web development
                     </h2>
                     <p className="skill-content has-text-fourth">
-                        JavaScript| React | Redux | HTML5 | CSS 
+                        JavaScript| React | React Native | jQuery | Redux | HTML5 | CSS 
                     </p>
                 </div>
                 <div className="tile is-child is-6 ">
