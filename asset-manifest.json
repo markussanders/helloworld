@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.7083e4f7.chunk.css",
-    "main.js": "/static/js/main.e4b76e0b.chunk.js",
-    "main.js.map": "/static/js/main.e4b76e0b.chunk.js.map",
+    "main.js": "/static/js/main.1e0fc67c.chunk.js",
+    "main.js.map": "/static/js/main.1e0fc67c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1e59195b.js",
     "runtime-main.js.map": "/static/js/runtime-main.1e59195b.js.map",
     "static/css/2.70d9d258.chunk.css": "/static/css/2.70d9d258.chunk.css",
-    "static/js/2.e88e46df.chunk.js": "/static/js/2.e88e46df.chunk.js",
-    "static/js/2.e88e46df.chunk.js.map": "/static/js/2.e88e46df.chunk.js.map",
+    "static/js/2.ab8393cd.chunk.js": "/static/js/2.ab8393cd.chunk.js",
+    "static/js/2.ab8393cd.chunk.js.map": "/static/js/2.ab8393cd.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.47a7441f21f6e02a51772fd0ce73911b.js": "/precache-manifest.47a7441f21f6e02a51772fd0ce73911b.js",
+    "precache-manifest.ae8e19954bf78862ddc7428688a6cf52.js": "/precache-manifest.ae8e19954bf78862ddc7428688a6cf52.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.70d9d258.chunk.css.map": "/static/css/2.70d9d258.chunk.css.map",
     "static/css/main.7083e4f7.chunk.css.map": "/static/css/main.7083e4f7.chunk.css.map",
-    "static/js/2.e88e46df.chunk.js.LICENSE": "/static/js/2.e88e46df.chunk.js.LICENSE",
+    "static/js/2.ab8393cd.chunk.js.LICENSE": "/static/js/2.ab8393cd.chunk.js.LICENSE",
     "static/media/LETS-gif.gif": "/static/media/LETS-gif.0233d8c4.gif",
     "static/media/avatar-angry-laugh.svg": "/static/media/avatar-angry-laugh.e0f1a69e.svg",
     "static/media/avatar-smile.svg": "/static/media/avatar-smile.203d7441.svg",
@@ -23,6 +23,7 @@
     "static/media/developer.gif": "/static/media/developer.2111879a.gif",
     "static/media/front-end-icon.svg": "/static/media/front-end-icon.cc6655cb.svg",
     "static/media/insurance-icon.svg": "/static/media/insurance-icon.582bbfe3.svg",
+    "static/media/m3rch-shop.png": "/static/media/m3rch-shop.31081216.png",
     "static/media/markus-frown-laugh.jpg": "/static/media/markus-frown-laugh.569d9505.jpg",
     "static/media/markus-smile.jpg": "/static/media/markus-smile.a6551b48.jpg",
     "static/media/medium.png": "/static/media/medium.9f1e14b2.png",
@@ -34,8 +35,8 @@
   "entrypoints": [
     "static/js/runtime-main.1e59195b.js",
     "static/css/2.70d9d258.chunk.css",
-    "static/js/2.e88e46df.chunk.js",
+    "static/js/2.ab8393cd.chunk.js",
     "static/css/main.7083e4f7.chunk.css",
-    "static/js/main.e4b76e0b.chunk.js"
+    "static/js/main.1e0fc67c.chunk.js"
   ]
 }
