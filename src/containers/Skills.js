@@ -19,7 +19,7 @@ const Skills = props => {
                         front end web development
                     </h2>
                     <p className="skill-content has-text-fourth">
-                        JavaScript| React | React Native | jQuery | Redux | HTML5 | CSS 
+                        JavaScript| React | React Native | jQuery | Redux | HTML5 | CSS <br/> Sass | Styled Components
                     </p>
                 </div>
                 <div className="tile is-child is-6 ">
@@ -30,7 +30,7 @@ const Skills = props => {
                         back end web development
                     </h2>
                     <p className="skill-content has-text-fourth">
-                        Node | Ruby | Rails | RESTful API's | SQL | PostgreSQL | Firebase <br/> Mocha w/ Chai | Jasmine 
+                        Node | Ruby | Rails | REST | SQL | PostgreSQL | Firebase <br/> Mocha w/ Chai | Jasmine | Express | GraphQL
                     </p>
                 </div>
             </div>
