@@ -17,7 +17,7 @@ const projects = [
         title: "10 Seconds!",
         githubLink: "https://github.com/markussanders/ten-seconds",
         description: "'10 Seconds!' was inspired by a game I played at a Chinatown cafe in which you can recieve a free drink if you are able to stop a timer at exactly '10.000'.",
-        website: "http://ten-seconds.herokuapp.com/",
+        website: "https://ten-seconds.herokuapp.com/",
         image: tenSeconds,
     },
     {
